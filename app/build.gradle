@@ -23,7 +23,7 @@ android {
         }
     }
 
-    packagingOptions{
+    packagingOptions {
         doNotStrip "*/*/libdjivideo.so"
         doNotStrip "*/*/libSDKRelativeJNI.so"
         doNotStrip "*/*/libFlyForbid.so"
@@ -49,6 +49,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
 
     compile 'com.dji:dji-uxsdk:4.5.1'
-    provided ('com.dji:dji-sdk-provided:4.5.1')
+    provided('com.dji:dji-sdk-provided:4.5.1')
 
 }
